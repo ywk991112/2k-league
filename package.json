@@ -1,0 +1,32 @@
+{
+  "name": "ric's_special_project_hw6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "xdg-open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywk991112/ric-special-project-hw6.git"
+  },
+  "author": "kwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywk991112/ric-special-project-hw6/issues"
+  },
+  "homepage": "https://github.com/ywk991112/ric-special-project-hw6#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.3.0"
+  }
+}
