@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-// import FlatButton from 'material-ui/FlatButton';
+import FlatButtonBar from  './FlatButtonBar.js';
 // import Scores from './Scores.js';
 // import Standings from './Standings.js';
 // import database from './Database.js';
@@ -59,6 +59,7 @@ class HomePage extends React.Component {
     return (
         <div>
           <h1>Click the button to enter the messenger!!</h1>
+          <FlatButtonBar />
         </div>
     );
   }
