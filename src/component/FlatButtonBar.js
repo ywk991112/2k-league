@@ -1,13 +1,25 @@
 import React from 'react';
 import FlatButton from 'material-ui/FlatButton';
+import themeManager from 'material-ui/styles'
 
-const FlatButtonBar = () => (
-  <div>
-    <FlatButton label="Default" />
-    <FlatButton label="Primary" primary={true} />
-    <FlatButton label="Secondary" secondary={true} />
-    <FlatButton label="Disabled" disabled={true} />
-  </div>
-);
+class MyAwesomeComponent extends React.Component {
+    childContextTypes: { 
+        muiTheme: React.PropTypes.object
+    }
 
-export default FlatButtonBar;
+    getChildContext() {
+        return {
+            muiTheme: themeManager.getCurrentTheme()
+        };
+    }
+
+    render() {
+        return (
+            <FlatButton label="Default" />
+        );
+    }
+
+}
+  
+export default MyAwesomeReactComponent;
+
