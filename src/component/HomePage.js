@@ -1,15 +1,19 @@
 import React, { Component, PropTypes } from 'react';
-import MyAwesomeReactComponent from  './FlatButtonBar.js';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TabBar from './TabBar';
+
 
 class HomePage extends React.Component {
-  render() {
-    return (
-        <div>
-          <h1>Click the button to enter the messenger!!</h1>
-          <MyAwesomeReactComponent />
-        </div>
-    );
-  }
+
+    render() {
+      return (
+      <div> 
+        <MuiThemeProvider>
+          <TabBar />
+        </MuiThemeProvider>
+      </div>
+      );
+    }
 }
 
 export default HomePage;
