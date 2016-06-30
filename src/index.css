@@ -18,6 +18,11 @@ a:hover {
     background-color: red;
 }
 
+/** drawer **/
+
+.standingDrawer {
+    width: 512px;
+}
 
 /** game card **/
 

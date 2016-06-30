@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import ReactTapEventPlugin from 'react-tap-event-plugin';
 import {Tabs, Tab} from 'material-ui/Tabs';
-import GameCard from './GameCard';
+import GamePage from './GameCard';
 import Standings from './Standings.js';
 
 ReactTapEventPlugin();
@@ -26,11 +26,7 @@ class TabBar extends React.Component {
         <Tabs>
           <Tab label="Games" >
             <div>
-              <GameCard />
-              <GameCard />
-              <GameCard />
-              <GameCard />
-              <GameCard />
+              <GamePage />
             </div>
           </Tab>
           <Tab label="Standings" >
